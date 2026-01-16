@@ -399,7 +399,7 @@ export default function Home() {
       <div className="flex-1 flex flex-col relative w-full h-full max-w-5xl mx-auto shadow-2xl shadow-blue-900/5 bg-white overflow-hidden my-0 lg:my-6 lg:rounded-3xl border border-gray-100">
 
         {/* Header */}
-        <header className="px-6 py-4 bg-white/90 backdrop-blur-xl border-b border-gray-100 flex items-center justify-between sticky top-0 z-10 w-full">
+        <header className="px-6 py-10 bg-white/90 backdrop-blur-xl border-b border-gray-100 flex items-center justify-between sticky top-0 z-10 w-full">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 bg-gradient-to-tr from-blue-600 to-violet-600 rounded-xl flex items-center justify-center text-white shadow-lg shadow-blue-200 ring-2 ring-white">
               <Bot size={24} />
