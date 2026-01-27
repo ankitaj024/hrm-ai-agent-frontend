@@ -18,8 +18,12 @@ export const DepartmentChart = ({ data }: DeptChartProps) => {
                         dataKey="name"
                         axisLine={false}
                         tickLine={false}
-                        tick={{ fill: '#9ca3af', fontSize: 12 }}
+                        tick={{ fill: '#9ca3af', fontSize: 10 }}
                         dy={10}
+                        interval={0}
+                        angle={-25}
+                        textAnchor="end"
+                        height={60}
                     />
                     <YAxis
                         axisLine={false}
